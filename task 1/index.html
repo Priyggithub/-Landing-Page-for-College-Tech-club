@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Tech Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>College Tech Club</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to the College Tech Club! We are a group of passionate individuals who love technology and innovation.</p>
+        </div>
+    </section>
+
+    <section id="events">
+        <div class="container">
+            <h2>Events</h2>
+            <div class="event-grid">
+                <div class="event-box">
+                    <h3>Tech Talk: AI and Machine Learning</h3>
+                    <p>Date: February 15th, 2024</p>
+                </div>
+                <div class="event-box">
+                    <h3>Hackathon: Build Your Dream Project</h3>
+                    <p>Date: March 10th, 2024</p>
+                </div>
+                <div class="event-box">
+                    <h3>CodeCraft: Web Development Workshop</h3>
+                    <p>Date: April 5th, 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to us:</p>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 College Tech Club. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
